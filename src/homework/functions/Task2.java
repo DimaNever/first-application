@@ -1,4 +1,4 @@
-package homework;
+package homework.functions;
 
 public class Task2 {
     public static void main(String[] args) {
@@ -7,7 +7,8 @@ public class Task2 {
         char operation = '+';
         System.out.println(result(operand1, operand2, operation));
     }
-    public static double result(double operand1, double operand2, char operation){
+
+    private static double result(double operand1, double operand2, char operation){
         double result = switch (operation){
             case '+' -> operand1 + operand2;
             case '-' -> operand1 - operand2;
