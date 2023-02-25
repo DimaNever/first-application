@@ -10,4 +10,11 @@ public class Ram {
     public int getValue() {
         return value;
     }
+
+    @Override
+    public String toString() {
+        return "Ram{" +
+                "value=" + value +
+                '}';
+    }
 }

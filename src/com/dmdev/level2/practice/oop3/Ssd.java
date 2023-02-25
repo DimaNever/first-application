@@ -11,4 +11,11 @@ public class Ssd {
     public int getValue() {
         return value;
     }
+
+    @Override
+    public String toString() {
+        return "Ssd{" +
+                "value=" + value +
+                '}';
+    }
 }
