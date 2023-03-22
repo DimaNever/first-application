@@ -1,16 +1,14 @@
 package com.dmdev.level2.practice.generics;
 
-import com.dmdev.level2.practice.oop2.Laptop;
-
 public class ListRunner {
 
     public static void main(String[] args) {
-        List<String> list = new List<>(10);
-        list.add("String1");
-        list.add("String2");
-        list.add("String3");
+        ListEx<String> listEx = new ListEx<>(10);
+        listEx.add("String1");
+        listEx.add("String2");
+        listEx.add("String3");
 
-        String element = list.get(1);
+        String element = listEx.get(1);
         System.out.println(element);
     }
 }

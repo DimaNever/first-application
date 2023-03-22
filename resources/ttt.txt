@@ -1,0 +1,5 @@
+Accumulates the elements of this stream into a List.
+The elements in the list will be in this stream's encounter order,
+if one exists. The returned List is unmodifiable;
+calls to any mutator method will always cause UnsupportedOperationException to be thrown.
+There are no guarantees on the implementation type or serializability of the returned List.
